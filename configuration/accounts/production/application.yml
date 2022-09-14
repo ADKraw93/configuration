@@ -1,7 +1,6 @@
 server:
   port: 7777
 accounts:
-  spring:
     datasource:
       url: mysql://localhost:3306/accounts_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
       username: accounts_db
