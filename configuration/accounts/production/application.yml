@@ -1,6 +1,6 @@
 server:
   port: 7777
-spring:
+accounts:
     datasource:
       url: jdbc://localhost:3306/accounts_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
       username: accounts_db
