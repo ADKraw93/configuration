@@ -1,6 +1,3 @@
-
-
-#accounts
 accounts:
   spring:
     datasource:
@@ -15,8 +12,6 @@ accounts:
   allow-get-accounts: false
   server:
     port: 7777
-
-#customers
 customers:
    spring:
      datasource:
