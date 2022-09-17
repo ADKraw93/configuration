@@ -9,6 +9,6 @@ customers:
       show-sql: true
       hibernate:
         ddl-auto: update
-  allow-get-customers: false
+  allow-get-customers: true
   server:
     port: 7070
