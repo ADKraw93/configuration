@@ -1,7 +1,7 @@
-accounts:
+customers:
   spring:
     datasource:
-      url: jdbc:mysql://localhost:3306/accounts_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
+      url: jdbc:mysql://localhost:3306/customers_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
       username: accounts_db
       password: accounts_db123
     jpa:
@@ -9,6 +9,5 @@ accounts:
       show-sql: true
       hibernate:
         ddl-auto: update
-  allow-get-accounts: false
   server:
-    port: 7777
+    port: 7070
