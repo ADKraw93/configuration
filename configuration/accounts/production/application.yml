@@ -9,6 +9,6 @@ accounts:
       show-sql: true
       hibernate:
         ddl-auto: update
-  allow-get-accounts: false
+  allow-get-accounts: true
   server:
     port: 7777
