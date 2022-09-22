@@ -10,5 +10,5 @@ accounts:
       hibernate:
         ddl-auto: update
   allow-get-accounts: true
-  #server:
-   # port: 7777
+server:
+  port: 7777
