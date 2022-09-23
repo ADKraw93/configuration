@@ -1,14 +1,14 @@
 accounts:
-  spring:
-    datasource:
-      url: jdbc:mysql://localhost:3306/accounts_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
-      username: accounts_db
-      password: accounts_db123
-    jpa:
-      database: mysql
-      show-sql: true
-      hibernate:
-        ddl-auto: update
-  allow-get-accounts: true
+    spring:
+        datasource:
+            url: jdbc:mysql://localhost:3306/accounts_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
+            username: accounts_db
+            password: accounts_db123
+        jpa:
+            database: mysql
+            show-sql: true
+            hibernate:
+                ddl-auto: update
+    allow-get-accounts: true
 server:
-  port: 7777
+    port: 7777
