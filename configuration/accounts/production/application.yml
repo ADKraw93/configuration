@@ -1,5 +1,5 @@
 accounts:
-    allow-get-accounts: false
+    allow-get-accounts: true
     spring:
         datasource:
             url: jdbc:mysql://localhost:3306/accounts_db?serverTimezone=Europe/Warsaw&useSSL=False&allowPublicKeyRetrieval=true
