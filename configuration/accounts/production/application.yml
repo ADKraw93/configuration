@@ -10,8 +10,8 @@ accounts:
             show-sql: true
             hibernate:
                 ddl-auto: update
-server:
-    port: 7777
+#server:
+#    port: 7777
 #server:
 #  port: 7777
 #accounts:
